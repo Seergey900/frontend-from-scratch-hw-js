@@ -21,4 +21,4 @@ function findUniqueElements(array) {
 }
 
 // Пример использования:
-console.log(findUniqueElements([1, 2, 3, 2, 1, 4])); // [1, 2, 3, 4]
+console.log(findUniqueElements([1, 2, 3, 2, 1, 4])); ///  [1, 2, 3, 4]
