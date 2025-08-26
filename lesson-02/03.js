@@ -1,5 +1,4 @@
 let grade;
-let score;
 
 if (score >= 90 && score <= 100) {
     grade = 'A';
@@ -12,5 +11,5 @@ if (score >= 90 && score <= 100) {
 } else if (score >= 0 && score <= 49) {
     grade = 'F';
 } else {
-    grade = 'Invalid score'; // некорректные значения
+    grade = 'Invalid score';
 }
