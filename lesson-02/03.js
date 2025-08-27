@@ -1,5 +1,5 @@
 const score = Math.floor(Math.random() * 100)  // тестовое значение, можно изменять
-let grade="A"
+let grade
 
 if (score >= 90 && score <= 100) {
     grade = 'A';
