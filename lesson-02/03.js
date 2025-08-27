@@ -1,4 +1,5 @@
-let grade;
+const score = 70 // тестовое значение, можно изменять
+let grade
 
 if (score >= 90 && score <= 100) {
     grade = 'A';
