@@ -1,6 +1,6 @@
 let grade;
 
-if (score >= 90) {
+; if (score >= 90) {
     grade = 'A';
 } else if (score >= 80) {
     grade = 'B';
@@ -13,3 +13,4 @@ if (score >= 90) {
 } else {
     grade = 'Invalid score';
 }
+
