@@ -1,11 +1,10 @@
 const score = 55 // тестовое значение, можно изменять
-let grade
+let grade="A"
 
-if (score >= 90 && score <= 100) {
-    grade = 'A';
-} else if (score >= 80 && score <= 89) {
-    grade = 'B';
-}
+// if (score >= 90 && score <= 100) {
+//     grade = 'A';
+// } else if (score >= 80 && score <= 89) {
+//     grade = 'B';
 // } else if (score >= 70 && score <= 79) {
 //     grade = 'C';
 // } else if (score >= 50 && score <= 69) {
