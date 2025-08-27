@@ -1,4 +1,3 @@
-const score = 70; // тестовое значение, можно изменять
 let grade;
 
 if (score >= 90 && score <= 100) {
@@ -11,9 +10,4 @@ if (score >= 90 && score <= 100) {
     grade = 'D';
 } else if (score >= 0 && score <= 49) {
     grade = 'F';
-} else {
-    grade = 'Invalid score';
 }
-
-console.log(grade);
-
