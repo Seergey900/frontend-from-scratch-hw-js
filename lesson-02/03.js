@@ -1,4 +1,4 @@
-const score = 70 // тестовое значение, можно изменять
+const score = 55 // тестовое значение, можно изменять
 let grade
 
 if (score >= 90 && score <= 100) {
@@ -12,4 +12,4 @@ if (score >= 90 && score <= 100) {
 } else if (score >= 0 && score <= 49) {
     grade = 'F';
 }
-
+console.log(`Grade: ${grade}`);
