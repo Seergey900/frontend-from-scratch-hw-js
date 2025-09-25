@@ -1,14 +1,7 @@
-/*
- * Напишите функцию isNumeric, которая принимает строку и проверяет, представляет ли эта строка корректное числовое значение.
- * Если строка является числом, функция должна возвращать true, в противном случае - false.
- */
-
 function isNumeric(str) {
-  // your code
-}
+    // Убираем пробелы в начале и конце
+    str = str.trim();
 
-// console.log(isNumeric("123")) // Ожидаемый результат: true
-// console.log(isNumeric("12.3")) // Ожидаемый результат: true
-// console.log(isNumeric("123abc")) // Ожидаемый результат: false
-// console.log(isNumeric("abc")) // Ожидаемый результат: false
-// console.log(isNumeric(" ")) // Ожидаемый результат: false
+    // Проверяем, что строка не пустая и что преобразование в число не даст NaN
+    return str !== '' && !isNaN(Number(str));
+}
